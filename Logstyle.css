@@ -1,0 +1,30 @@
+*{
+margin: 0rem;
+padding: 0rem;
+box-sizing: border-box;
+font-family: 'poppins', sans-serif;
+background-color: rgb(224, 208, 245);
+}
+
+h1{
+    margin-top: 2rem;
+    font-family: sans-serif;
+    font-size: 3rem;
+    color: #222;
+    justify-content: center;
+    text-align: center;
+}
+.profile-pic{
+    height: 20rem;
+    width: 8rem;
+    margin-left: 28rem;
+    margin-top: 1rem;
+    position: absolute;
+    top: 50%;
+    width: 50%;
+    transform: translate(-50,-50%);
+}
+#photo{
+    height: 100%;
+    width: 50%;
+}

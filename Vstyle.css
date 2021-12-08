@@ -60,6 +60,10 @@ nav ul li a:hover{
     padding: 14px 40px;
     cursor: pointer;
 }
+.btn:hover{
+    color: #ffffffa4;
+    font-size: 18px;
+}
 .download{
     position: absolute;
     right: 7%;
