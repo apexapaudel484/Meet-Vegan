@@ -54,14 +54,14 @@ nav ul li a:hover{
     border: none;
     font-size: 16px;
     margin-top: 30px;
-    background-color: rgba(146, 137, 137, 0.4);
-    color: rgb(0, 0, 0);
+    background: #ff3e3b;
+    color: #fff;
     padding: 14px 40px;
     cursor: pointer;
 }
 .btn:hover{
-    color: #ff3e3b;
-    font-size:
+    color: #ffffffa4;
+    font-size: 18px;
 }
 .download{
     position: absolute;
@@ -82,5 +82,6 @@ nav ul li a:hover{
 }
 .download:hover{
     color: #ff3e3b;
+    transition: all 0.3s ease;
 }
 
