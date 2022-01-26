@@ -1,0 +1,18 @@
+*{
+    font-family: poping, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    background-color: #160E0B;
+    margin: 2rem;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-right: 13rem;
+}
+.photo{
+    display: flex;
+    float: Right;
+}
