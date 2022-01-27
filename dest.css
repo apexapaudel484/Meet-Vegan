@@ -4,15 +4,46 @@
     margin: 0%;
 }
 body{
-    background-color: #160E0B;
+    background-color: rgb(181, 182, 181);
     margin: 2rem;
 }
 h1{
-    color: white;
+    color: rgb(209, 23, 23);
     text-align: center;
-    padding-right: 13rem;
+    font-size: 3.5rem;
+    height: 3rem;
+    justify-content: center;
 }
-.photo{
+h1:hover{
+    color: #810808;
+    transition: 0.3s;
+    font-size: 5rem;
+}
+.Hotel{
     display: flex;
-    float: Right;
+    padding-top: 5rem;
+    color: seashell;
+    font-size: 1.5rem;
+    width: 100%
+}
+li{
+    padding: 1.2rem;
+    color: white;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.Hotel_1{
+    list-style-image: url('Loving-Heart.png');
+}
+.Hotel_2{
+    list-style-image:url('sarangi_veg.jpg')
+}
+.Hotel_3{
+     list-style-image: url('Aniyor.jpg');
+}
+.Hotel_5{
+    list-style-image: url('or2k.jpg');
+}
+.Hotel_6{
+    list-style-image: url('');
 }
