@@ -4,7 +4,7 @@ image{
 *{
 margin: 0rem;
 border-radius: 25px;
-background-color: rgb(181, 182, 181);
+background-image: linear-gradient(180deg, pink, white,black)
 }
 body{
     height: 100vh;

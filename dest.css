@@ -50,6 +50,7 @@ h1:hover{
 }
 .Hotel{
     display: flex;
+    justify-content: center;
     padding-top: 5rem;
     color: seashell;
     font-size: 1.5rem;
@@ -62,16 +63,16 @@ li{
     list-style-type: none;
 }
 .Hotel_1{
-    list-style-image: url('Loving-Heart.png');
+    list-style-image: url('asets/Loving-heart.jpg');
 }
 .Hotel_2{
-    list-style-image:url('sarangi_veg.jpg')
+    list-style-image:url('asets/sarangi_veg.jpg')
 }
 .Hotel_3{
-     list-style-image: url('Aniyor.jpg');
+     list-style-image: url('asets/Aniyor.jpg');
 }
 .Hotel_5{
-    list-style-image: url('or2k.jpg');
+    list-style-image: url('asets/or2k.jpg');
 }
 .Hotel_6{
     list-style-image: url('');
