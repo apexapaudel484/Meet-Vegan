@@ -8,6 +8,7 @@
             Profile
         </title>
           <link rel="stylesheet" href="Logstyle.css">
+          <script src="log.js"></script>
     </head>
     <body>
         <div id="Form">
@@ -16,17 +17,20 @@
             <img src="asets/profile.png" alt="my-image" id="photo">
             <input type="file" id="file">
             <label for="file" id="uploadBtn">Choose photo</label>
-            <form action="/action_page.php" method="get">
+            <form  onclick="verification()" action="./actionpage.php" method="post">
                 <label for="fname">First name:</label>
                 <input type="text" id="fname" name="fname"><br><br>
                 <label for="lname">Last name:</label>
                 <input type="text" id="lname" name="lname"><br><br>
+                <label for="password">Password</label>
+                <input type="text" id="password" name="password"><br><br>
+                <label for="confirm">Confirm password</label>
+                <input type="text" id="confirm" name="confirm"><br><br>
                 <input type="submit" value="Submit">
               </form>
 
         </div>
         </div>
         
-        <script src="log.js"></script>
     </body>
 </html>

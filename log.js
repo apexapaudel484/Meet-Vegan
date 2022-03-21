@@ -24,3 +24,33 @@ const uploadBtn = document.getElementById('#uploadBtn');
      }
 
  });
+ function verification()
+ {
+     var fname= document.getElementById("fname").ariaValueNow;
+     if(fname=="")
+     alert('First name is required');
+     var sname= document.getElementById("lname").ariaValueNow;
+     if(lname=="")
+     alert('2nd name is requied');
+     var firstP= document.getElementById("password").ariaValueNow;
+     var secondP= document.getElementById("confirm").ariaValueNow;
+     if(firstp=secondp)
+     {
+     }
+      else{
+          alert('Password is different');
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ }
