@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
     <title>Vegans destinations for date</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/dest.css" />
-    <body>
+    <link rel="stylesheet" type="text/css" href="./assets/css/root.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/css/destination.css"
+    />
+  </head>
+
+  <body>
+    <header>
       <nav>
         <img src="./assets/img/logo.png" alt="logo" class="logo" />
         <ul>
@@ -14,37 +23,15 @@
           <li><a href="#">Destinations</a></li>
         </ul>
       </nav>
+    </header>
 
+    <main>
       <h1>Destinations for Date</h1>
-      <div class="Hotel">
-        <li class="Hotel_1">
-          <a href="https://g.page/lovingheartveganrestaurant?share"
-            >Loving Heart</a
-          >
-        </li>
-        <li class="Hotel_2">
-          <a href="https://goo.gl/maps/FjoLCCoBi8xuEKUP9"
-            >Sarangi Veg restaurant</a
-          >
-        </li>
-        <li class="Hotel_3">
-          <a href="https://g.page/ANIYORVEGVEGANGLUTENFREE?share"
-            >Aniyor Veg & Vegan Restaurant</a
-          >
-        </li>
-        <li class="Hotel-4">
-          <a href="https://goo.gl/maps/vHGFui2hkjG7rMBa8">OR2K</a>
-        </li>
-        <br />
-        <li class="Hotel_5">
-          <a href="https://goo.gl/maps/zN7iN7HUQ4Fbq4Cv6">Vegan Food Cafe</a>
-        </li>
-        <li class="Hotel_6">
-          <a href="https://goo.gl/maps/c4dYA1P8vSgBK9C3A"
-            >Places Restaurant & Bar</a
-          >
-        </li>
-      </div>
-    </body>
-  </head>
+      <ul id="destination-list"></ul>
+    </main>
+
+    <script type="module" src="./assets/js/restaurant-list.js"></script>
+
+    <footer>Copyleft &#127279; OSS contributors [May be Non-Vegan]</footer>
+  </body>
 </html>
