@@ -1,63 +1,68 @@
-image{
-    height: 6rem;
-}
-*{
-margin: 0rem;
-border-radius: 25px;
-background-image: linear-gradient(180deg, pink, white,black)
-}
-body{
-    height: 100vh;
-    width: 100%;
-}
-#form{
-    background-color: salmon;
-    height: 15rem;
-    width: 10rem;
+* {
+  margin: 0rem;
+  border-radius: 25px;
+  background-image: linear-gradient(180deg, pink, white, black);
 }
 
-h1{
-    margin-top: 2rem;
-    font-family: sans-serif;
-    font-size: 3rem;
-    color: #222;
-    justify-content: center;
-    text-align: center;
+image {
+  height: 6rem;
 }
-.profile-pic{
-    height: 12rem;
-    width: 12rem;
-    position: absolute;
-    top: 20%;
-    left: 42%;
-    transform: translate(-50,-50%);
-    border-radius: 50%;
-    overflow: hidden;
-    border: 1px solid grey;
-    cursor: pointer;
-}
-#photo{
-    height: 100%;
-    width: 100%;
 
+body {
+  height: 100vh;
+  width: 100%;
 }
-#file{
-    display: none;
 
+#form {
+  background-color: salmon;
+  height: 15rem;
+  width: 10rem;
 }
-#uploadBtn{
-    height: 3rem;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%);
-    text-align: center;
-    background :rgb(0, 0, 0.7;
-    color: wheat;
-    line-height: 2rem;
-    font-family: sans-serif;
-    font-size: 1.5rem;
-    cursor: pointer;
-    display: none;
+
+h1 {
+  margin-top: 2rem;
+  font-family: sans-serif;
+  font-size: 3rem;
+  color: #222;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-pic {
+  height: 12rem;
+  width: 12rem;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  transform: translate(-50, -50%);
+  border-radius: 50%;
+  overflow: hidden;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+#photo {
+  height: 100%;
+  width: 100%;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  height: 3rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  background: rgb(0, 0, 0.7);
+  color: wheat;
+  line-height: 2rem;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
 }
